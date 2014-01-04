@@ -10,32 +10,34 @@
 </head>
 
 <body>
-	<div id="header">
-
-		<h1>Barrierefreie Wikipedia-Suche</h1>
-		<div id="einleitung">
-			<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
-				<fieldset>
-					<legend>Wikipedia-Suche</legend>
-					<label for="search">Geben sie einen Suchbegriff ein</label>
-					<input type="text" id="search" name="search" value="" />
-					<input class="submitButton" type="submit" id="article" name="article" value="Artikelsuche" />
-					<input class="submitButton" type="submit" id="fulltext" name="fulltext" value="Volltext-Suche" />
-				</fieldset>
-			</form>
-			<h2>Anmerkung</h2>
-			<p>
-				Wie in der Aufgabenstellung gefordert, wurde diese Seite nach den Richtlinien zur Barrierefreiheit nach WCAG 2.0 AAA und Section 508 gestaltet.
-				<br /><br />    	
-				Auf die Validierung von  &quot;XHTML 1.0 strict&quot; und CSS2 wurde (bewusst) keine R&uuml;cksicht genommen.
-				<br /> (Auf ein bisschen  &quot;border-radius&quot; wollte ich einfach nicht verzichten &#9786; )
-				<br />
-				<br />
-
-				<a href="http://wave.webaim.org/refer"><img id="validierung" src="pics/wai.gif" alt="wai-validierung" width="88" height="31"/></a>
-
-			</p>
-		</div>
+	<div class="navbar">
+		<ul class="nav navbar-nav">
+			<li><a href="index.html">Startseite</a></li>
+			<li><a href="table.xhtml">XHTML-Tabelle</a></li>
+			<li><a href="impressum.html">Impressum</a></li>
+		</ul>
 	</div>
+
+
+	<h1>Barrierefreie Wikipedia-Suche</h1>
+	<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+		<fieldset>
+			<legend>Wikipedia-Suche</legend>
+			<label for="search">Geben sie einen Suchbegriff ein</label>
+			<input type="text" id="search" name="search" value="" />
+			<input class="submitButton" type="submit" id="article" name="article" value="Artikelsuche" />
+			<input class="submitButton" type="submit" id="fulltext" name="fulltext" value="Volltext-Suche" />
+		</fieldset>
+	</form>
+	<h2>Anmerkung</h2>
+	<p>
+		Wie in der Aufgabenstellung gefordert, wurde diese Seite nach den Richtlinien zur Barrierefreiheit nach WCAG 2.0 AAA und Section 508 gestaltet.
+		<br /><br />    	
+		Auf die Validierung von  &quot;XHTML 1.0 strict&quot; und CSS2 wurde (bewusst) keine R&uuml;cksicht genommen.
+		<br /> (Auf ein bisschen  &quot;border-radius&quot; wollte ich einfach nicht verzichten &#9786; )
+		<br />
+		<br />
+		<a href="http://wave.webaim.org/refer"><img id="validierung" src="pics/wai.gif" alt="wai-validierung" width="88" height="31"/></a>
+	</p>
 </body>
 </html>

@@ -57,3 +57,30 @@ td, th{
 input{
 	border-radius: 15px;
 }
+
+.navbar{
+
+}
+
+.nav{
+	margin-left: auto;
+	width:88%;
+	margin-right: auto;
+	background: #777777;
+	border-radius:10px;
+}
+
+li{
+	list-style: none;
+	display: inline;
+	margin:30px;
+}
+
+.navbar li > a{
+	color:white;
+	text-decoration: none;
+	line-height: 50px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+
+}

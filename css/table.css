@@ -30,3 +30,28 @@
     border: 1px solid;
     border-color: #00FFFF;
   }
+
+
+
+
+.nav{
+  margin-left: auto;
+  margin-right: auto;
+  width:88%;
+  background: #777777;
+}
+
+li{
+  list-style: none;
+  display: inline;
+  margin:30px;
+}
+
+.navbar li > a{
+  color:white;
+  text-decoration: none;
+  line-height: 50px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+
+}
