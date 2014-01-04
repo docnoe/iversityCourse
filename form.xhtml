@@ -5,199 +5,86 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Iversity Web-Engineering Formular</title>
 <style type="text/css">
-* {
-	margin: 0;
-	padding: 0;
-}
-html {
-	height: 100%;
-	width: 100%;
-}
+
 body {
-	height: 100%;
-	width: 100%;
-	background: #090;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 1em;
-	line-height: 1.5;
-	color: yellow;
+  height: 100%;
+  width: 99%;
+  background: #001111;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #00FFFF;
 }
+
 h1 {
-	margin: 1.3em auto;
-	max-width: 500px;
-	color: black;
+  margin: 1em auto;
+  color: white;
+  text-align:center;
 }
+
 p {
-	text-align: center;
-	margin-bottom: 1.2em;
+  text-align: center;
+  margin-bottom: 2em;
 }
-.nowrap {
-	white-space: nowrap;
+
+
+table{
+
+border-spacing: 0.5em;
+text-align: center;
 }
-#einleitung {
-	clear: both;
-	background: #600;
-	border: 2px solid #0e0;
-	max-width: 600px;
-	margin: 1em auto;
-	padding: 2.5em;
-	text-align: left;
-	border-radius: 30px;
+
+td, th{
+  border-spacing: 0.5em;
+  border: 1px solid;
+  border-color: #00FFFF;
 }
-#button a {
-	display: block;
-	width: 162px;
-	height: 169px;
-	background: url("link_zur_tabelle.png");
-	background-position: -162px 0;
-	color: black;
-	text-decoration: none;
-	font-weight: bold;
+
+#search{
+	 color: #00FFFF;
+	 font-size: 12px;
+	 border: none;
+	 border-top: 1px solid #00FFFF;
+	 border-bottom: 1px solid #00FFFF;
+	 background-color: #001111;
+	 height: 25px;
+	 width: 300px;
+	 padding :5px;
 }
-#button a:hover {
-	background-position: 0 0;
-}
-#smiley {
-	float: left;
-	margin: 2em;
-	margin-right: 0;
-	width: 162px;
-	height: 169px;
-	background: url("128526.png");
-}
-#button {
-	float: right;
-	margin: 2em;
-	margin-left: 0;
-}
-.w3c-button {
-	margin: 50px;
-}
-#header {
-	width: 90%;
-	max-width: 1000px;
-	margin: 3em auto;
-	background: green;
-	text-align: center;
-	border-spacing: 0.5em 1.5em;
-	empty-cells: hide;
-	border: 4px solid #0e0;
-	border-radius: 50px;
-	padding: 30px;
-}
-legend {
-	font-weight: bold;
-	padding: 20px;
-	margin-left: -20px;
-	font-size: 1.3em;
-	border: 2px solid yellow;
-	border-radius: 30px;
-}
-#search {
-	display: block;
-	margin-bottom: 20px;
-	font-family: "Courier New", Courier, monospace;
-	color: yellow;
-	font-weight: bold;
-	letter-spacing: 0.1em;
-	font-size: 1.5em;
-	border: 4px solid #0e0;
-	background-color: green;
-	padding: 3px;
-	height: 50px;
-	width: 250px;
-	box-shadow: inset 3px 3px 5px 0px rgba(0,0,0,0.7), inset -3px -3px 5px 0px rgba(255,255,255,0.4), 5px 5px 10px 0 rgba(0,0,0,0.3);
-	border-radius: 20px;
-	width: 95%;
-	margin-bottom: 60px;
-}
-#search:hover, #search:focus {
-	background: rgb(255,220,0);
-	box-shadow: inset 3px 3px 5px 0px rgba(0,0,0,0.7), inset -3px -3px 5px 0px rgba(255,255,255,0.4), 5px 5px 10px 0 rgba(0,0,0,0.2), 0px 0px 50px 10px rgba(255,255,0,0.5);
-	border-color: rgb(250,200,0);
-	color: #400;
-	outline: none;
-}
-#go:hover, #go:focus, #fulltext:hover, #fulltext:focus, #validierung:hover, #validierung:focus {
-	background: rgb(255,220,0);
-	box-shadow: inset 5px 5px 5px 0 rgba(255,255,255,0.3), inset -5px -5px 5px 0 rgba(100,0,0,0.5), 5px 5px 10px 0 rgba(0,0,0,0.2), 0px 0px 50px 10px rgba(255,255,0,0.5);
-	color: #D57800;
-	outline: none;
-}
-#go:active, #fulltext:active {
-	color: red;
-}
-#go {
-	float: left;
-	margin-bottom: 20px;
-	cursor: pointer;
-	width: 160px;
-	height: 50px;
-	background: rgb(255,200,0);
-	border-radius: 30px;
-	font-size: 1em;
-	font-weight: bold;
-	color: #600;
-	border: none;
-	box-shadow: inset 5px 5px 5px 0 rgba(255,240,200,0.7), inset -5px -5px 5px 0 rgba(100,0,0,0.7), 5px 5px 10px 0 rgba(0,0,0,0.3);
-}
-#fulltext {
-	float: right;
-	margin-bottom: 20px;
-	cursor: pointer;
-	width: 160px;
-	height: 50px;
-	background: rgb(255,200,0);
-	border-radius: 30px;
-	font-size: 1em;
-	font-weight: bold;
-	color: #600;
-	border: none;
-	box-shadow: inset 5px 5px 5px 0 rgba(255,240,200,0.7), inset -5px -5px 5px 0 rgba(100,0,0,0.7), 5px 5px 10px 0 rgba(0,0,0,0.3);
-}
-label {
-	display: block;
-	margin-top: 20px;
-	margin-bottom: 30px;
-	cursor: pointer;
-}
-fieldset {
-	border: 2px solid yellow;
-	border-radius: 30px;
-	padding: 50px;
-}
-form {
-	padding: 70px;
-}
-#validierung {
-	margin: 30px;
+
+.submitButton{
+	color: #00FFFF;
+	 font-size: 12px;
+	 border: none;
+	 border: 1px solid #00FFFF;
+	 background-color: #001111;
+	 height: 22px;
+	 float:right;
+	 width: 150px;
+	 margin: 4px;
+	 padding :3px;
 }
 </style>
 </head>
 
 <body>
 <div id="header">
-  <div id="button"><a href="tabelle.xhtml">&nbsp;<br />
-    hier<br />
-    geht's zur<br />
-    Aufgabe<br />
-    "Tabelle"</a></div>
-  <h1>Hausaufgabe<br /><span class="nowrap">Web-Engineering I</span><br />
-    <span class="nowrap"> (&quot;Formular&quot;)</span></h1>
+  
+  <h1>Es lebe die Barrierefreiheit!</h1>
   <div id="einleitung">
     <form action="http://de.wikipedia.org/wiki/Spezial:Suche">
       <fieldset>
         <legend>Wikipedia-Suche</legend>
-        <label for="search">Wonach möchten Sie suchen?</label>
+        <label for="search">Hier Suchbegriff eingeben</label>
         <input type="text" id="search" name="search" value="" />
-        <input type="submit" id="go" name="go" value="Artikelsuche" />
-        <input type="submit" id="fulltext" name="fulltext" value="Volltext-Suche" />
+        <input class="submitButton" type="submit" id="go" name="go" value="Artikelsuche" />
+        <input class="submitButton" type="submit" id="fulltext" name="fulltext" value="Volltext-Suche" />
       </fieldset>
     </form>
    <!--  <p>Online-Test auf Einhaltung der Richtlinien<br />
       zur Barrierefreiheit dieses Formulars<br />
       (WCAG 2.0 AAA und Section 508):</p> -->
-    <p><a href="http://wave.webaim.org/refer"><img id="validierung" src="wcag2AAA.gif" alt="wai-validierung" width="88" height="31"/></a></p>
+    <p><a href="http://wave.webaim.org/refer"><img id="validierung" src="pics/wai.gif" alt="wai-validierung" width="88" height="31"/></a></p>
   </div>
 </div>
 </body>
