@@ -1,0 +1,77 @@
+a	Anker.
+abbr	Abkürzung.
+acronym	Akronym.
+address	Autoreninformation.
+area	Clientseitige Image-Map.
+b	Fettschrift.
+base	Basis-URI.
+bdo	I18N: Bidi-Eingriff.
+big	Großschrift.
+blockquote	Langes Zitat.
+body	Dokumentkörper.
+br	Zeilenumbruch.
+button	Button.
+caption	(Tabellen-) Kopfzeile.
+cite	Literaturverweis.
+code	Code-Fragment.
+col	Spalte.
+colgroup	Spaltengruppe.
+dd	Definitionsbeschreibung.
+del	Gelöschter Text.
+dfn	Instanzdefinition.
+div	Generischer Container.
+dl	Definitionsliste.
+dt	Definitionsbegriff.
+em	Betonung.
+fieldset	Kontrollelementgruppe.
+form	Formular.
+h1	Überschrift.
+h2	Überschrift.
+h3	Überschrift.
+h4	Überschrift.
+h5	Überschrift.
+h6	Überschrift.
+head	Dokumentkopf.
+hr	Horizontaler Trenner.
+html	Dokument-Root.
+i	Kursivschrift.
+img	Bild.
+input	Eingabeelement.
+ins	Eingefügter Text.
+kbd	Einzugebender Text.
+label	Formularbeschriftung.
+legend	Beschriftung.
+li	Listenelement.
+link	Medienunabhängiger Link.
+map	Clientseitige Image-Map.
+meta	Generische Metadaten.
+noscript	Fallback-Container.
+object	Generisches Objekt.
+ol	Geordnete Liste.
+optgroup	Optionsgruppe.
+option	Auswahlmöglichkeit.
+p	Absatz.
+param	Parameter.
+pre	Vorformatierter Text.
+q	Inline-Zitat.
+samp	Beispielausgabe.
+script	Script-Anweisungen.
+select	Optionsauswahl.
+small	Kleinschrift (HTML 5: Kleingedrucktes).
+span	Generischer Container.
+strong	Starke Betonung (HTML 5: Wichtigkeit).
+style	Gestaltungsanweisungen.
+sub	Subskript.
+sup	Hochgestellte Schrift.
+table	Tabelle.
+tbody	Tabellenkörper.
+td	Tabellenzelle.
+textarea	Mehrzeiliges Textfeld.
+tfoot	Tabellenfuß.
+th	Tabellenkopfzelle.
+thead	Tabellenkopf.
+title	Dokumenttitel.
+tr	Tabellenzeile.
+tt	»Fernschreiber«-Text.
+ul	Ungeordnete Liste.
+var	Variableninstanz.
