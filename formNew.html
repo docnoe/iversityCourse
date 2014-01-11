@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+	<title>Iversity Web engineering course</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Just for debugging purposes. Don't actually copy this line! -->
+	<!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+			<![endif]-->
+
+			<!-- Custom styles for this template -->
+			<link href="css/carousel.css" rel="stylesheet">
+			<link href="css/johannesnoe.css" rel="stylesheet">
+		</head>
+<!-- NAVBAR
+	================================================== -->
+	<body>
+		<div class="navbar-wrapper">
+			<div class="container">
+
+				<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+							<!-- Header button f&uuml;r mobile Endger&auml;te -->
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Navigation umschalten</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="index.html">Johannes Noe &#64; Iversity</a>
+						</div>
+						<div class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+								<!-- <li class="active"><a href="#">Startseite</a></li> -->
+								<li class="dropdown">
+									<li><a href="table.xhtml">Tabelle</a></li>
+									<li><a href="impressum.html">Impressum</a></li>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<hr class="featurette-divider">
+		
+		<div class="row pullUp">
+			<div class="col-md-8 col-md-offset-4">
+				<h3>Barrierefreie Wikipedia-Suche</h3>
+			</div>
+		</div>
+
+		<div class="row spacer" >
+			<div class="col-md-10 col-md-offset-1">
+				<form role="form" action="http://de.wikipedia.org/wiki/Spezial:Suche">
+					<fieldset>
+
+						<legend>Wikipedia-Suche</legend>
+						
+						<div class="form-group">
+							<label for="searchInput">Geben sie einen Suchbegriff ein</label>
+							<input type="text" class="form-control" id="searchInput" name="search" value="" />
+						</div>
+						
+
+						<input class="btn btn-default" type="submit" id="article" name="article" value="Artikelsuche" />
+						<input class="btn btn-default" type="submit" id="fulltext" name="fulltext" value="Volltext-Suche" />
+
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<div class="row spacer"></div>
+		<div class="row">
+
+			<div class="col-md-8 col-md-offset-1">
+				<h4>Anmerkung</h4>
+				<p>
+					Wie in der Aufgabenstellung gefordert, wurde diese Seite nach den Richtlinien zur Barrierefreiheit nach WCAG 2.0 AAA und Section 508 gestaltet.
+					<br /><br />      
+					Auf die Validierung von  &quot;XHTML 1.0 strict&quot; und CSS2 wurde (bewusst) keine R&uuml;cksicht genommen.
+					<br /> (Auf ein bisschen  &quot;border-radius&quot; wollte ich einfach nicht verzichten &#9786; )
+					<br />
+					<br />
+				</p>
+				<div class="center">
+					<a href="http://wave.webaim.org/refer"><img id="validierung" src="pics/wai.gif" alt="wai-validierung" width="88" height="31"/></a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- START THE FEATURETTES -->
+
+		<hr class="featurette-divider">
+
+		<!-- FOOTER -->
+		<footer>
+			<!-- <p class="pull-right"><a href="#">Back to top</a></p> -->
+			<p>&copy; 2014 Johannes Noe &middot; <a href="impressum.html">Impressum</a></p>
+		</footer>
+
+
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/holder.js"></script>
+	</body>
+	</html>
