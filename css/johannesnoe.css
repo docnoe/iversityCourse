@@ -9,3 +9,15 @@ color: white;
 .navbar-inverse .navbar-brand{
   color: white;
 }
+
+.spacer {
+    margin-top: 40px; /* define margin as you see fit */
+}
+
+.pullUp {
+    margin-top: -40px; /* define margin as you see fit */
+}
+
+.center{
+	text-align: center;
+}
